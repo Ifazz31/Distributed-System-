@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Server {
-    private static final int PORT = 8080;
+    private static final int PORT = 12345;
 
     public static void main(String[] args) throws IOException {
         ExecutorService executorService = Executors.newFixedThreadPool(10); // Using Fixed sized thread pool
